@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87CEEB; /* Sky blue background color */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Dark text color */
+    overflow: hidden; /* Prevents scrollbars during animation */
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333; /* Dark header color */
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555; /* Medium text color */
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #FF6347; /* Tomato button background color */
+    color: #fff; /* White button text color */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #F08080; /* Light coral hover color */
+}
+
+#familyTree {
+    margin-top: 20px;
+}
+
+.colorful-background {
+    background: linear-gradient(to bottom, #87CEEB, #ADD8E6); /* Gradient from sky blue to light blue */
+    animation: gradientAnimation 20s infinite alternate; /* Animation applied to the background gradient */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777; /* Light text color */
+}
